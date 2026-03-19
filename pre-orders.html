@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HoneyBelle - Pre-Orders</title>
+    <link rel="stylesheet" href="pre-orders.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="top-bar">
+  </header>
+    <header>
+        <div class="header-links">
+            <a href="mypage.html">LOG IN</a>
+            <a href="register.html">REGISTER</a>
+        </div>
+  <img src="logoside.png" style="float:left;width:120px;height:120px;">
+<img src="sidelogoright.png" style="float:right;width:120px;height:120px;">      
+       
+<div class="logo-container">
+  <a href="index.html">
+    <img src="logo.png" alt="HoneyBelle Logo" class="main-logo">
+  </a> 
+</div>
+ <div class="slogan">
+        <marquee class="scrollingquote">FEEL THE SWEET, LOVE THE FIT</marquee>
+        </div>
+        <nav class="main-nav">
+            <div class="nav-links">
+                <a href="index.html"></a>
+                <a href="new.html" class="active">NEW</a>
+           <div class="dropdown">
+            <a href="categories.html" class="dropbtn">CATEGORIES ⌄</a>  
+            <div class="dropdown-content">
+                <div class="drop-column">
+                    <a href="dresses.html">Dresses</a>
+                    <a href="tops.html">Tops</a>
+                    <a href="bottoms.html">Bottoms</a>
+                    <a href="shoes.html">Shoes</a>
+                    <a href="bags.html">Bags</a>
+                </div>
+                <div class="drop-column">
+                    <h3 class="gold-title-small">CONTENTS</h3>
+                    <a href="new-arrivals.html">New Arrivals</a>
+                    <a href="pre-orders.html">Pre-orders</a>
+                    <a href="restocked-items.html">Restocked items</a>
+                </div>
+            </div>
+        </div>
+        <a href="guide.html">GUIDE</a>
+            </div>
+<div class="nav-icons">
+    <a href="mypage.html"><i class="user-icon">👤</i></a>
+    <a href="cart.html"><i class="cart-icon">🛒</i></a>
+    <a href="contactform.html"><i class="mail-icon">✉️</i></a>
+  </div>
+</nav>
+<div class="main-content">
+    
+    <aside class="sidebar">
+        <div class="search-section">
+            <h2 class="gold-title">SEARCH</h2>
+            <p>Keywords</p>
+            <input type="text" class="search-input">
+            <button class="search-button">Search</button>
+        </div>
+
+        <div class="categories-section">
+            <h2 class="gold-title">Honeybelle Categories</h2>
+            <ul class="category-list">
+                <li><a href="dresses.html">Dresses <span>&gt;</span></a></li>
+                <li><a href="tops.html">Tops <span>&gt;</span></a></li>
+                <li><a href="bottoms.html">Bottoms <span>&gt;</span></a></li>
+                <li><a href="shoes.html">Shoes <span>&gt;</span></a></li>
+                <li><a href="bags.html">Bags <span>&gt;</span></a></li>
+            </ul>
+            
+            <h2 class="sidebar-gold-title">CONTENTS</h2>
+            <ul class="category-list">
+                <li><a href="new-arrivals.html">New Arrivals</a></li>
+                <li><a href="pre-orders.html">Pre-orders</a></li>
+                <li><a href="restocked-items.html">Restocked Items</a></li>
+            </ul>
+        </div>
+    </aside>
+<section class="products-display">
+        <h1 class="script-title">Pre-Orders</h1>
+
+        <div class="product-grid">
+            <div class="box" onclick="openPopup('popup1')">
+                <img src="https://contents.multilingualcart.com/ori/50934/goods_img/goods_2232_1.jpg" alt="Dress 1">
+                 <h3>Volume Flared Maid-Like Set-Up</h3>
+            </div>
+
+            <div class="box" onclick="openPopup('popup2')">
+                <img src="https://contents.multilingualcart.com/ori/50934/goods_img/goods_2460_5.jpg" alt="Dress 2">
+                <h3>Gingham Knit Cut-Out Onepiece</h3>
+            </div>
+
+            <div class="box" onclick="openPopup('popup3')">
+                <img src="https://u-mercari-images.mercdn.net/photos/m49123128062_1.jpg" alt="Dress 3">
+                <h3>Pinstripe 2-Way Set-Up</h3>
+            </div>
+
+        
+
+<div id="popup1" class="popup">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closePopup('popup1')">&times;</span>
+        <p><strong>Toe Shoe-Like Frill Ribbon Pumps</strong></p>
+        <p>Price: $100</p>
+        <label for="size1">Size:</label>
+        <select id="size1">
+            <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color1">Color:</label>
+        <select id="color1">
+            <option>Red</option><option>Blue</option><option>Pink</option><option>Purple</option>
+        </select>
+        <label for="quantity1">Quantity:</label>
+        <input type="number" id="quantity1" value="1" min="1" max="10">
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div id="popup2" class="popup">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closePopup('popup2')">&times;</span>
+        <p><strong>Ladder Ribbon Frill Arm Knit</strong></p>
+        <p>Price: $104</p>
+        <label for="size2">Size:</label>
+        <select id="size2">
+            <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color2">Color:</label>
+        <select id="color2">
+            <option>White</option><option>Pink</option>
+        </select>
+        <label for="quantity2">Quantity:</label>
+        <input type="number" id="quantity2" value="1" min="1" max="10">
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div id="popup3" class="popup">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closePopup('popup3')">&times;</span>
+        <p><strong>Back Shirring Set-Up</strong></p>
+        <p>Price: $85</p>
+        <label for="size3">Size:</label>
+        <select id="size3">
+            <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color3">Color:</label>
+        <select id="color3">
+            <option>Pink</option><option>White</option> <option>Black</option>
+        </select>
+        <label for="quantity3">Quantity:</label>
+        <input type="number" id="quantity3" value="1" min="1" max="10">
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+
+<script>
+function openPopup(id) {
+    document.getElementById(id).style.display = 'block';
+}
+function closePopup(id) {
+    document.getElementById(id).style.display = 'none';
+}
+
+document.querySelectorAll('.popup').forEach(popup => {
+    popup.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+});
+</script>
+</section>
+</div>
+
+<footer class="footer-bar">
+  <div class="footer-container">
+    <div class="footer-links">
+      <a href="company information.html">Company Information</a>
+    </div>
+    <a href="https://www.instagram.com/honey._belle?igsh=MTVvZnRmdTJwNHUyNw%3D%3D&utm_source=qr" target="_blank" class="social-icon instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+  </div>
+</footer>
+</body>
+</html>
+

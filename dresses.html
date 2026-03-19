@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HoneyBelle - Dresses</title>
+    <link rel="stylesheet" href="dresses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+</head>
+<body>
+
+    <header class="top-bar">
+  </header>
+    <header>
+        <div class="header-links">
+            <a href="mypage.html">LOG IN</a>
+            <a href="register.html">REGISTER</a>
+        </div>
+  <img src="logoside.png" style="float:left;width:120px;height:120px;">
+<img src="sidelogoright.png" style="float:right;width:120px;height:120px;">      
+       
+<div class="logo-container">
+  <a href="index.html">
+    <img src="logo.png" alt="HoneyBelle Logo" class="main-logo">
+  </a> 
+</div>
+ <div class="slogan">
+        <marquee class="scrollingquote">FEEL THE SWEET, LOVE THE FIT</marquee>
+        </div>
+        <nav class="main-nav">
+            <div class="nav-links">
+                <a href="index.html"></a>
+                <a href="new.html" class="active">NEW</a>
+           <div class="dropdown">
+            <a href="categories.html" class="dropbtn">CATEGORIES ⌄</a>  
+            <div class="dropdown-content">
+                <div class="drop-column">
+                    <a href="dresses.html">Dresses</a>
+                    <a href="tops.html">Tops</a>
+                    <a href="bottoms.html">Bottoms</a>
+                    <a href="shoes.html">Shoes</a>
+                    <a href="bags.html">Bags</a>
+                </div>
+                <div class="drop-column">
+                    <h3 class="gold-title-small">CONTENTS</h3>
+                    <a href="new-arrivals.html">New Arrivals</a>
+                    <a href="pre-orders.html">Pre-orders</a>
+                    <a href="restocked-items.html">Restocked items</a>
+                </div>
+            </div>
+        </div>
+        <a href="guide.html">GUIDE</a>
+            </div>
+<div class="nav-icons">
+    <a href="mypage.html"><i class="user-icon">👤</i></a>
+    <a href="cart.html"><i class="cart-icon">🛒</i></a>
+    <a href="contactform.html"><i class="mail-icon">✉️</i></a>
+  </div>
+</nav>
+<div class="main-content">
+    
+    <aside class="sidebar">
+        <div class="search-section">
+            <h2 class="gold-title">SEARCH</h2>
+            <p>Keywords</p>
+            <input type="text" class="search-input">
+            <button class="search-button">Search</button>
+        </div>
+
+        <div class="categories-section">
+            <h2 class="gold-title">Honeybelle Categories</h2>
+            <ul class="category-list">
+                <li><a href="dresses.html">Dresses <span>&gt;</span></a></li>
+                <li><a href="tops.html">Tops <span>&gt;</span></a></li>
+                <li><a href="bottoms.html">Bottoms <span>&gt;</span></a></li>
+                <li><a href="shoes.html">Shoes <span>&gt;</span></a></li>
+                <li><a href="bags.html">Bags <span>&gt;</span></a></li>
+            </ul>
+            
+            <h2 class="sidebar-gold-title">CONTENTS</h2>
+            <ul class="category-list">
+                <li><a href="new-arrivals.html">New Arrivals</a></li>
+                <li><a href="pre-orders.html">Pre-orders</a></li>
+                <li><a href="restocked-items.html">Restocked Items</a></li>
+            </ul>
+        </div>
+    </aside>
+<section class="products-display">
+        <h1 class="script-title">Dresses</h1>
+
+        <div class="product-grid">
+            <div class="box" onclick="openPopup('popup1')">
+                <img src="image-ruffle.jpeg" alt="Dress 1">
+                <h3>Ruffle Ribbon Set Up</h3>
+            </div>
+
+            <div class="box" onclick="openPopup('popup2')">
+                <img src="https://u-mercari-images.mercdn.net/photos/m70579784853_1.jpg" alt="Dress 2">
+                <h3>Heart Collar Pleate Frill</h3>
+            </div>
+
+            <div class="box" onclick="openPopup('popup3')">
+                <img src="https://contents.multilingualcart.com/ori/50934/goods_img/goods_2119_thum.jpg" alt="Dress 3">
+                <h3>Short Pink-Bow Jacket Set Up</h3>
+            </div>
+
+            <div class="box" onclick="openPopup('popup4')">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYZziFXAQIECDcVooq00pnRe0uPtsrjM6WhNpZXj6JjM674JU7" alt="Dress 4">
+                <h3>Spindle Lace Ruffle Blouse</h3>
+            </div>
+    
+                <div class="box" onclick="openPopup('popup5')">
+                    <img src="https://contents.multilingualcart.com/ori/50934/goods_img/goods_2524_1.jpg"  alt="Dress 5" >
+                    <h3>Tweed Jacket Set-Up</h3>
+                </div>
+            </td>
+            <td>
+                <div class="box" onclick="openPopup('popup6')">
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZK3sI6gwVGuk0uZ7NVym7KtGnGAZDOSHMg3GsfY7522usp0m6" alt="Dress 6">
+                    <h3>Layer-style Lace Tops</h3>
+                </div>
+
+<div id="popup1" class="popup">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closePopup('popup1')">&times;</span>
+        <p><strong>Ruffle Ribbon Set Up</strong></p>
+        <p>Price: $100</p>
+        <label for="size1">Size:</label>
+        <select id="size1">
+            <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color1">Color:</label>
+        <select id="color1">
+            <option>Red</option><option>Blue</option><option>Pink</option><option>Purple</option>
+        </select>
+        <label for="quantity1">Quantity:</label>
+        <input type="number" id="quantity1" value="1" min="1" max="10">
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div id="popup2" class="popup">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closePopup('popup2')">&times;</span>
+        <p><strong>Heart Collar Pleate Frill </strong></p>
+        <p>Price: $104</p>
+        <label for="size2">Size:</label>
+        <select id="size2">
+            <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color2">Color:</label>
+        <select id="color2">
+            <option>White</option><option>Pink</option>
+        </select>
+        <label for="quantity2">Quantity:</label>
+        <input type="number" id="quantity2" value="1" min="1" max="10">
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div id="popup3" class="popup">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closePopup('popup3')">&times;</span>
+        <p><strong>Short Pink-Bow Jacket Set Up</strong></p>
+        <p>Price: $85</p>
+        <label for="size3">Size:</label>
+        <select id="size3">
+            <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color3">Color:</label>
+        <select id="color3">
+            <option>Pink</option><option>White</option> <option>Black</option>
+        </select>
+        <label for="quantity3">Quantity:</label>
+        <input type="number" id="quantity3" value="1" min="1" max="10">
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div id="popup4" class="popup">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closePopup('popup4')">&times;</span>
+        <p><strong>Spindle Lace Ruffle Blouse</strong></p>
+        <p>Price: $105.50</p>
+        <label for="size4">Size:</label>
+        <select id="size4">
+            <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color4">Color:</label>
+        <select id="color4">
+            <option>Blue</option><option>White</option>
+        </select>
+        <label for="quantity4">Quantity:</label>
+        <input type="number" id="quantity4" value="1" min="1" max="10">
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div id="popup5" class="popup">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closePopup('popup5')">&times;</span>
+        <p><strong>Tweed Jacket Set-Up</strong></p>
+        <p>Price: $120</p>
+        <label for="size5">Size:</label>
+        <select id="size5">
+            <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color5">Color:</label>
+        <select id="color5">
+            <option>White</option><option>Blue</option> <option>Pink</option>
+        </select>
+        <label for="quantity5">Quantity:</label>
+        <input type="number" id="quantity5" value="1" min="1" max="10">
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div id="popup6" class="popup">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closePopup('popup6')">&times;</span>
+        <p><strong>Layer-style Lace Tops</strong></p>
+        <p>Price: $150</p>
+        <label for="size6">Size:</label>
+        <select id="size6">
+            <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color6">Color:</label>
+        <select id="color6">
+            <option>White</option><option>Blue</option> <option>Pink</option>
+        </select>
+        <label for="quantity6">Quantity:</label>
+        <input type="number" id="quantity6" value="1" min="1" max="10">
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<script>
+function openPopup(id) {
+    document.getElementById(id).style.display = 'block';
+}
+function closePopup(id) {
+    document.getElementById(id).style.display = 'none';
+}
+
+document.querySelectorAll('.popup').forEach(popup => {
+    popup.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+});
+</script>
+</section>
+</div>
+<footer class="footer-bar">
+  <div class="footer-container">
+    <div class="footer-links">
+      <a href="company information.html">Company Information</a>
+    </div>
+    <a href="https://www.instagram.com/honey._belle?igsh=MTVvZnRmdTJwNHUyNw%3D%3D&utm_source=qr" target="_blank" class="social-icon instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+  </div>
+</footer>
+</body>
+</html>
